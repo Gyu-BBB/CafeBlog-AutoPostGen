@@ -7,7 +7,8 @@ MacOS M1
 
 ## 1. start
 ```
-pip install requirments.txt
+pip install -r requirements.txt
+
 ```
 
 ```
