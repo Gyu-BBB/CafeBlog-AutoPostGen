@@ -19,3 +19,4 @@ https://platform.openai.com/settings/profile?tab=api-keys
 export NAVER_CLIENT_ID="YOUR_CLIENT_ID"
 export NAVER_CLIENT_SECRET="YOUR_CLIENT_SECRET"
 ```
+https://developers.naver.com/docs/serviceapi/search/blog/blog.md#python
