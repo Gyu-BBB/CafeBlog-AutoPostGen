@@ -164,11 +164,11 @@ def save_post_to_word(final_post):
             
             # 이미지 삽입
             if os.path.exists(image_path):
-                doc.add_paragraph(line.replace(f'{{{image_name}}}', ''))
+                doc.add_paragraph(line.replace(f'{{image_name}}', ''))
                 doc.add_picture(image_path, width=Inches(5))  # 이미지 크기 설정 (5인치 너비)
             else:
                 # 이미지가 없으면 텍스트만 추가
-                doc.add_paragraph(line.replace(f'{{{image_name}}}', f"[이미지 '{image_name}'를 찾을 수 없습니다]"))
+                doc.add_paragraph(line.replace(f'{{image_name}}', f"[이미지 '{image_name}'를 찾을 수 없습니다]"))
         else:
             # 이미지 태그가 없으면 그냥 텍스트 삽입
             doc.add_paragraph(line)
