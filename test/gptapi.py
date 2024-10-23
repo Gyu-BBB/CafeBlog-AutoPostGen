@@ -5,7 +5,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 client = openai.OpenAI(api_key=api_key)
 
 completion = client.chat.completions.create(
-    model="gpt-4o-mini",
+    model="solar-pro",
     messages=[
         {"role": "system", "content": "You are a helpful assistant."},
         {
