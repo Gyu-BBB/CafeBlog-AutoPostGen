@@ -9,7 +9,7 @@ from docx import Document
 from docx.shared import Inches
 
 # OpenAI 설정 (업스테이지 API)
-openai.api_key = ""
+openai.api_key = "your key"
 openai.api_base = "https://api.upstage.ai/v1/solar"
 
 # 네이버 API 설정
