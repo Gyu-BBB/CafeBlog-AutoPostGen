@@ -9,12 +9,12 @@ from docx import Document
 from docx.shared import Inches
 
 # OpenAI 설정 (업스테이지 API)
-openai.api_key = "up_lzHgfRmS8CEkzaETkmdhaJuj2rUXg"
+openai.api_key = ""
 openai.api_base = "https://api.upstage.ai/v1/solar"
 
 # 네이버 API 설정
-client_id = "5bkC4U5AM_2wL6pY_VtN"
-client_secret = "9LfCAZJnro"
+client_id = ""
+client_secret = ""
 
 MAX_TOKENS = 3000  # solar-pro 모델에서 적절한 토큰 제한 설정
 
